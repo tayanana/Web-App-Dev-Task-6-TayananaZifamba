@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: hwb(205 33% 39%);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: hsl(0, 0%, 99%);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group select,
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn {
+    width: 100%;
+    background-color: hwb(185 3% 26%);
+    color: #000000;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: hsl(211, 25%, 44%);
+}
+
+.confirmation {
+    display: none;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.confirmation h2 {
+    color: #28a745;
+}
